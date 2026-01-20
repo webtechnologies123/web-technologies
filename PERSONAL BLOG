@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Blog</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f2f6f5; /* simple soft background */
+        }
+
+        .header {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        .blog-card {
+            width: 70%;
+            margin: 30px auto;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .blog-card img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        h2 {
+            margin-top: 0;
+        }
+
+        .date {
+            color: gray;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>My Personal Blog</h1>
+    <p>Thoughts • Stories • Ideas</p>
+</div>
+
+<div class="blog-card">
+    <!-- Scenic Image -->
+    <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee" alt="Scenic Nature">
+    <div class="content">
+        <p class="date">January 20, 2026</p>
+        <h2>A Fresh Start</h2>
+        <p>
+            This is my first blog post where I share simple thoughts
+            and everyday experiences.
+        </p>
+    </div>
+</div>
+
+</body>
+</html>
