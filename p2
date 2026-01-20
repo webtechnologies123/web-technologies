@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Images List</title>
+</head>
+
+<body>
+
+<ul>
+  <li><img src="image1.jpg" alt="Image 1" width="150"></li>
+  <li><img src="image2.jpg" alt="Image 2" width="150"></li>
+</ul>
+
+</body>
+</html>
