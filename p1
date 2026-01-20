@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Class Selector</title>
+<style>
+.text {
+  color: black;
+  font-size: 18px;
+}
+</style>
+</head>
+
+<body>
+
+<p class="text">Hello, this is a class selector example.</p>
+<p class="text">Both lines look the same.</p>
+
+</body>
+</html>
