@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple CSS Example</title>
+    <style>
+        /* Internal CSS */
+        p {
+            color: blue;       /* text color */
+            border: 1px solid black; /* border around paragraph */
+            margin: 10px;      /* space around paragraph */
+            font-style: italic; /* italic text */
+            padding: 5px;      /* space inside border */
+        }
+    </style>
+</head>
+<body>
+
+<p>Hello! I am Abhinav.</p>
+<p>CSS makes HTML look nice and organized.</p>
+
+</body>
+</html>
