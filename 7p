@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Box Example</title>
+    <style>
+        .box {
+            width: 200px;
+            padding: 10px;
+            border: 2px solid blue;
+            margin: 15px;
+            background-color: lightyellow;
+        }
+    </style>
+</head>
+<body>
+
+<div class="box">
+    This is a simple box.
+</div>
+
+</body>
+</html>
