@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Display Example</title>
+    <style>
+        .box {
+            border: 1px solid #333;
+            padding: 5px;
+            margin: 5px;
+            text-align: center;
+        }
+
+        .inline span {
+            display: inline;
+            border: 1px solid blue;
+            padding: 5px;
+        }
+
+        .inline-block div {
+            display: inline-block;
+            width: 60px;
+            height: 60px;
+            background: #fffbe6;
+        }
+
+        .block div {
+            display: block;
+            width: 80px;
+            background: #b3b3ff;
+        }
+
+        .none {
+            display: none;
+        }
+
+        .visible {
+            background: lightcoral;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<h3>1. display: inline</h3>
+<div class="inline">
+    <span>1</span>
+    <span>2</span>
+    <span>3</span>
+</div>
+
+<h3>2. display: inline-block</h3>
+<div class="inline-block">
+    <div class="box">1</div>
+    <div class="box">2</div>
+    <div class="box">3</div>
+</div>
+
+<h3>3. display: block</h3>
+<div class="block">
+    <div class="box">1</div>
+    <div class="box">2</div>
+    <div class="box">3</div>
+</div>
+
+<h3>4. display: none</h3>
+<div class="none">Hidden Box</div>
+<div class="visible">Visible Box</div>
+
+</body>
+</html>
